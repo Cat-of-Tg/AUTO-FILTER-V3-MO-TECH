@@ -62,13 +62,13 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    '🔔Join Main Channel🔔', url=f"{MT_CHANNEL}"
+                                    'Join Main Channel', url=f"{MT_CHANNEL}"
                                 )
                         ],
                         [
                             InlineKeyboardButton
                                 (
-                                    '🔊 Bot Updates 🔊', url=f"{MT_BOT_UPDATES}"
+                                    ' Movie Group', url=f"{MT_BOT_UPDATES}"
                                 )
                         ]
                     ]
@@ -87,7 +87,7 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    '👨‍💼 𝙳𝚎𝚟𝚎𝚕𝚘𝚙𝚎𝚛𝚜 👨‍💼', url="https://t.me/Mo_TECH_YT"
+                                    'Group', url="https://t.me/MOvie_X_Zone"
                                 )
                         ]
                     ]
@@ -106,7 +106,7 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    '👨‍💼 𝙳𝚎𝚟𝚎𝚕𝚘𝚙𝚎𝚛𝚜 👨‍💼', url="https://t.me/Mo_TECH_YT"
+                                    'MOVIE GROUP', url="https://t.me/MOvie_X_Zonr"
                                 )
                         ]
                     ]
@@ -119,14 +119,13 @@ async def start(bot, update):
         return
 
     buttons = [[
-        InlineKeyboardButton('👨‍💼Creater', url=f'https://t.me/{MRK_YT_MASTER}'),
-        InlineKeyboardButton('Help 🤔', callback_data="help")
+        InlineKeyboardButton('OWNER', url=f'https://t.me/Cat_of_tg'),
+        InlineKeyboardButton('HELP', callback_data="help")
     ],[
-        InlineKeyboardButton('🗣️Group', url=f'{MT_GROUP}'),
-        InlineKeyboardButton('Channel🔊', url=f'{MT_CHANNEL}')
-    ],[
-        InlineKeyboardButton('🖥️ Tutorial Video 🖥️', url='https://youtu.be/OTqZmADyOjU')
-    ]]
+        InlineKeyboardButton('GROUP', url=f'{MT_GROUP}'),
+        InlineKeyboardButton('CHANNEL', url=f'{MT_CHANNEL}')
+    ]
+     ]
     
     reply_markup = InlineKeyboardMarkup(buttons)
     
@@ -143,10 +142,10 @@ async def start(bot, update):
 @Client.on_message(filters.command(["help"]) & filters.private, group=1)
 async def help(bot, update):
     buttons = [[
-        InlineKeyboardButton('🏠 𝙷𝚘𝚖𝚎', callback_data='start'),
-        InlineKeyboardButton('𝙰𝚋𝚘𝚞𝚝 🚩', callback_data='about')
+        InlineKeyboardButton('HOME', callback_data='start'),
+        InlineKeyboardButton('ABOUT', callback_data='about')
     ],[
-        InlineKeyboardButton('🔐 𝙲𝚕𝚘𝚜𝚎 🔐', callback_data='close')
+        InlineKeyboardButton('CLOSE', callback_data='close')
     ]]
     
     reply_markup = InlineKeyboardMarkup(buttons)
@@ -164,13 +163,13 @@ async def help(bot, update):
 async def about(bot, update):
     
     buttons = [[
-        InlineKeyboardButton('👤 Mrk YT👤', url='https://t.me/MRK_YT'),
-        InlineKeyboardButton('Skp KP👤', url='https://t.me/Skp_Kp')
+        InlineKeyboardButton('MOVIE GOUP', url='https://t.me/Movie_X_Zone'),
+        InlineKeyboardButton('OWNER', url='https://t.me/cat_of_tg')
     ],[
-        InlineKeyboardButton('👤 AlbertEinstein 👤', url='https://t.me/AlbertEinsteinTG')
+        InlineKeyboardButton('ALBERT', url='https://t.me/AlbertEinsteinTG')
     ],[
-        InlineKeyboardButton('🏠 Home', callback_data='start'),
-        InlineKeyboardButton('Close 🔐', callback_data='close')
+        InlineKeyboardButton('HOME', callback_data='start'),
+        InlineKeyboardButton('CLOSE', callback_data='close')
     ]]
     reply_markup = InlineKeyboardMarkup(buttons)
     
