@@ -1,23 +1,21 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-# (c) @AlbertEinsteinTG @MRK_YT
+# (c) @AlbertEinsteinTG @MRK_YT @Cat_Of_Tg
 
 class Translation(object):
     
-    START_TEXT = """<b>🙋‍♂️Hey {}!!</b>
+    START_TEXT = """<b>Hey {}!!</b>
 
 <b>I am a Pro AutoFilterBot V2....😜</b>
 
-<b>Make me an admin for your group and channel then connect me....🎉</b>
+<b>Make me an admin for your group and channel then connect me....</b>
 
-<b>🙂Watch the video below to build an Pro Autofilter bot V2 like me...</b>
-
-<b>Subscribe to the update channel to learn about my updates and activity...</b>
+<b>Subscribe To Our @MX_Zone To Movies Updates...</b>
 
 <b>Press /help to know about available commands🤪</b>"""    
     
     HELP_TEXT = """
-<b>😉How To Use Me!😉?</b>
+<b>How To Use Me!</b>
 
 <i>
 -> Add Me To Any Group And Make Me Admin
@@ -46,18 +44,20 @@ class Translation(object):
             
             -> <code>Status</code> - <b>Button Will Shows The Stats Of Your Channel</b>
             
-<b><a href="https://t.me/Mo_Tech_YT">© Mo Tech YT</a></b>
+<b><a href="https://t.me/MOvie_x_zone">MX Zone</a></b>
 """
     
     ABOUT_TEXT = """<b>➥ 📃Name</b> : <b>Pro Auto Filter Bot</b>
 
-<b>>➥👨‍💼Master</b> : <b><a href="https://t.me/AlbertEinstein_TG">👤Albert Einstein</a></b>
+<b>>➥ Master </b> : <b><a href="https://t.me/AlbertEinstein_TG">Albert Einstein</a></b>
 
-<b>➥ 👨‍💻Editor</b> : <b><a href="https://t.me/MRk_YT">👤Mrk YT</a></b>
+<b>➥ Editor </b> : <b><a href="https://t.me/Cat_Of_Tg">Poison Cat</a></b>
 
-<b>➥ 🗣️Language</b> : <b>Python3<b>
+<b>➥ Language </b> : <b>Python3<b>
 
-<b>➥ 📚Library</b> : <b><a href="https://docs.pyrogram.org">Pyrogram Asyncio 1.13.0 </a></b>
+<b>➥ Library </b> : <b><a href="https://docs.pyrogram.org">Pyrogram Asyncio 1.13.0 </a></b>
 
-<b>➥ 📖Source Code</b> : <b><a href="https://github.com/MoTechYT/Pro-Auto-Filter-Bot-V2">💥Click Me</a></b>
+@MX_Zone
+@Movie_X_Zone
+
 """
